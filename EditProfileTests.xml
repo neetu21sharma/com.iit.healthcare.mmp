@@ -1,0 +1,24 @@
+
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="fname" value="Chloe" />
+		<parameter name="lname" value="Garth" />
+		<parameter name="licence" value="12245678." />
+		<parameter name="ssn" value="3425266267272" />
+		<parameter name="address" value="324, Harvard Circle" />
+		<parameter name="age" value="21" />
+		<parameter name="weight" value="99" />
+		<parameter name="height" value="129" />
+		<parameter name="city" value="Orlando" />
+		<parameter name="state" value="FL" />
+		<parameter name="zip" value="123456" />
+		<parameter name="proinfo" value="BlueCross" />
+		<parameter name="insinfo" value="BB12Cross" />
+		<parameter name="result" value="Your Profile has been updated."/>
+		<classes>
+			<class name="betabatch.EditProfileTests" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite>
+<!-- Suite -->  

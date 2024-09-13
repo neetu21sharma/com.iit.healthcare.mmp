@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="fname" value="Cory"/>
+    <parameter name="address" value="132480, Harvard Circle"/>
+    <parameter name="pharmacyAddress" value="1237 Walgreens"/>
+    <parameter name="city" value="San Francisco"/>
+    <parameter name="weight" value=""/>
+    <parameter name="ssn" value=""/>
+    <parameter name="zipcode" value=""/>
+    <parameter name="license" value=""/>
+    <parameter name="selectSecQuestion" value="what is your best friend name"/>
+    <parameter name="lname" value="Frank"/>
+    <parameter name="password" value="Frank234!"/>
+    <parameter name="answer" value="Molly"/>
+    <parameter name="dob" value=""/>
+    <parameter name="pharmacy" value="Walgreens"/>
+    <parameter name="state" value="CA"/>
+    <parameter name="confirmpassword" value="Frank234!"/>
+    <parameter name="age" value=""/>
+    <parameter name="email" value="Cory@yahoo.com"/>
+    <parameter name="height" value=""/>
+    <parameter name="username" value="Frank"/>
+    <classes>
+      <class name="betabatch.RegistrationTests">
+        <methods>
+          <include name="validateSendMessagesFunc"/>
+        </methods>
+      </class> <!-- betabatch.RegistrationTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

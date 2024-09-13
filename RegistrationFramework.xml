@@ -1,0 +1,29 @@
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="fname" value="Cory"/>
+		<parameter name="lname" value="Frank"/>
+		<parameter name ="dob" value=""/>
+		<parameter name="license" value=""/>
+		<parameter name="ssn" value=""/>
+		<parameter name="state" value="CA"/>
+		<parameter name="city" value="San Francisco"/>
+		<parameter name="address" value="132480, Harvard Circle"/>
+		<parameter name="zipcode" value=""/>
+		<parameter name="age" value=""/>
+		<parameter name="height" value=""/>	
+		<parameter name="weight" value=""/>
+		<parameter name="pharmacy" value="Walgreens"/>
+		<parameter name="pharmacyAddress" value="1237 Walgreens"/>
+		<parameter name="email" value="Cory@yahoo.com"/>
+		<parameter name="password" value="Frank234!"/>
+		<parameter name="username" value="Frank"/>
+		<parameter name="confirmpassword" value="Frank234!"/>
+		<parameter name="selectSecQuestion" value = "what is your best friend name"/>
+		<parameter name="answer" value="Molly"/>
+		<classes>
+			<class name="betabatch.RegistrationTests" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite>
+<!-- Suite -->

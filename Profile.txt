@@ -1,0 +1,27 @@
+<input id="Ebtn" type="button" value="Edit" onclick="Edit();">
+
+//input[@id='fname']
+//input[@id='lname']
+//input[@id='ssn'] 
+//input[@id='addr'] 
+//input[@id='age'] 
+//input[@id='weight'] 
+//input[@id='height'] 
+//input[@id='city']
+//input[@id='state'] 
+//input[@id='zip'] 
+//input[@id='height'] 
+//th[text() ='Medical RelationShips'] or //th[normalize-space() ='Medical RelationShips']
+//input[@id ='zip']
+//input[@id ='proinfo']
+//input[@id='Insinfo']
+//input[@id ='Sbtn']
+
+String text = Your Profile, has been updated - ok
+//a[1]/button['View History'] or //button[normalize-space()='View History']
+//a[2]/button['View Reports'] or //button[normalize-space()='View Reports']
+
+
+
+//input[@id='subject']
+//textarea[@id='message']
